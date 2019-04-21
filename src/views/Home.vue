@@ -1,11 +1,7 @@
 <template>
   <div class="home">
     <section class="snow-bg"><MainHeader></MainHeader></section>
-    <!-- <div class="container">
-      <div class="container-card">
-        <KanbanCard v-for="(data,index) in taskLists" :key="index" :data="data"></KanbanCard>
-      </div>
-    </div>-->
+
     <div class="container">
       <div class="row">
       <div v-for="(data,index) in taskLists" :key="index"  class="col-sm">
